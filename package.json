@@ -2,7 +2,14 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
+    "@arco-design/web-react": "^2.61.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,17 +17,22 @@
     "@types/node": "^16.18.91",
     "@types/react": "^18.2.69",
     "@types/react-dom": "^18.2.22",
+    "@visactor/react-vchart": "^1.10.2",
+    "@visactor/vchart-arco-theme": "^1.10.2",
+    "axios": "^1.6.8",
+    "bizcharts": "^4.1.23",
+    "echarts": "^5.5.0",
+    "i18next": "^23.10.1",
+    "mobx": "^6.12.1",
+    "mobx-react-lite": "^4.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^14.1.0",
+    "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
+    "styled-components": "^6.1.8",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +51,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }

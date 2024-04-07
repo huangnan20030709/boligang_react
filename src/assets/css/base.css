@@ -1,0 +1,105 @@
+body {
+  --color-bg-1: #fff;
+  --color-bg-2: #eee;
+
+  --color-text-1: #212121;
+  --color-text-2: #252525;
+  --color-text-3: #888;
+}
+
+body[arco-theme="dark"] {
+  --color-bg-1: #232324;
+  --color-bg-2: #323235;
+
+  --color-text-1: #fff;
+  --color-text-2: #ccc;
+  --color-text-3: #666;
+}
+
+body {
+  background-color: var(--color-bg-2);
+  color: var(--color-text-1);
+}
+/*************************************************************************************************************/
+
+/*************************************************************************************************************/
+
+/* 样式的重置 */
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+header,
+menu,
+section,
+p,
+input,
+td,
+th,
+ins {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  outline: none;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+.icon-large {
+  font-size: 24px;
+}
+/* 全局样式 */
+body,
+textarea,
+select,
+input,
+button {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
